@@ -1,0 +1,17 @@
+{
+  "download_path": "C:\\Users\\CYFER\\Downloads\\REVMusic",
+  "download_type": "video",
+  "audio_format": "mp3",
+  "audio_quality": "320",
+  "video_resolution": "1080p",
+  "video_format": "mp4",
+  "concurrent": 1,
+  "playlist_limit": 1,
+  "playlist": false,
+  "subtitle": false,
+  "subtitle_embed": false,
+  "subtitle_lang": "en",
+  "sponsorblock": false,
+  "thumbnail": true,
+  "metadata": true
+}

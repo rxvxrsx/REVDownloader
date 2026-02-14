@@ -1,0 +1,17 @@
+# Core download engine
+yt-dlp>=2025.12.8
+
+# GUI Framework
+customtkinter>=5.2.2
+
+# Image processing (required by customtkinter)
+pillow>=12.1.1
+
+# HTTP requests with connection pooling
+requests>=2.32.5
+
+# Clipboard operations
+pyperclip>=1.11.0
+
+# Windows-specific clipboard support
+pywin32>=311; platform_system=="Windows"
