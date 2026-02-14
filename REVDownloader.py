@@ -682,7 +682,16 @@ class ModernDownloader:
 
         self.window = CTk()
         self.window.title("REV Music Downloader")
-        self.window.geometry("900x800")
+        
+        # Set window size to fit screen height and center horizontally
+        window_width = 900
+        screen_width = self.window.winfo_screenwidth()
+        screen_height = self.window.winfo_screenheight()
+        window_height = screen_height - 80  # Leave space for taskbar and title bar
+        x = (screen_width - window_width) // 2
+        y = 0  # Start from top edge
+        self.window.geometry(f"{window_width}x{window_height}+{x}+{y}")
+        
         self.window.minsize(800, 650)
         self.window.configure(fg_color=COLORS["bg_primary"])
         
